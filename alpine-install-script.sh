@@ -13,7 +13,7 @@ run_task() {
 
 	log_message "$desc..."
 
-	if "$@" 2>1 | tee -a "$LOG_FILE"; then
+	if "$@" 2>&1 | tee -a "$LOG_FILE"; then
 		log_message "$desc success"
 	else
 		log_message "$desc failed"
