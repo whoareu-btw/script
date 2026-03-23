@@ -35,9 +35,9 @@ How to change shell to bash on alpine?
 
 Why xwayland and sudo not found on alpine?
 Because xwayland and sudo at community repository, you can add community repo manually or you can use command below:
-- su
-- setup-xorg-base (still su)
-- apk add sudo (still su)
+- \# su
+- \# setup-xorg-base
+- \# apk add sudo
 
 NOTE!:
 This script still experimental, if you want to give suggestions just let me know about that ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
