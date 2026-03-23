@@ -26,7 +26,7 @@ run_task "Updating system" sudo dnf update -y
 PACKAGE_SWAY="sway swaylock swaybg waybar rofi network-manager-applet pavucontrol xorg-x11-server-Xwayland"
 run_task "Installing sway and related stuff" sudo dnf install -y $PACKAGE_SWAY
 
-PACKAGE_DEV="neovim podman distrobox nix nix-daemon"
+PACKAGE_DEV="neovim podman distrobox nix nix-core nix-legacy nix-devel nix-doc nix-filesystem nix-system nix-libs nix-daemon"
 run_task "Installing dev tools" sudo dnf install -y $PACKAGE_DEV
 
 log_message "Proccess done, log saved in: $LOG_FILE"
