@@ -11,8 +11,9 @@ Window manager and stuff related:
 - rofi
 - network-manager-applet
 - pavucontrol
-- nwg-look (on fedora use: $ nix profile add nixpkgs#nwg-look)
-- xwayland 
+- nwg-look (for fedora by using this command: $ nix profile add nixpkgs#nwg-look)
+- xwayland
+- bash (for alpine)
 
 Dev tools:
 - neovim
@@ -27,6 +28,10 @@ For example I use fedora version:
 How to activate nix daemon on fedora?
 - $ sudo systemctl enable --now nix-daemon
 - $ systemctl reboot
+
+How to change shell to bash on alpine?
+- $ chsh -s /usr/bin/bash
+use command: "$ which bash" for knowing where bash directory at, if you dont know where bash directory at.
 
 NOTE!:
 This script still experimental, if you want to give suggestions just let me know about that ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
