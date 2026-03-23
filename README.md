@@ -31,7 +31,7 @@ How to activate nix daemon on fedora?
 
 How to change shell to bash on alpine?
 - $ chsh -s /usr/bin/bash
-use command: "$ which bash" for knowing where bash directory at, if you dont know where bash directory at.
+- use command: "$ which bash" for knowing where bash directory at, if you dont know where bash directory at.
 
 NOTE!:
 This script still experimental, if you want to give suggestions just let me know about that ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
