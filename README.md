@@ -33,5 +33,10 @@ How to change shell to bash on alpine?
 - $ chsh -s /usr/bin/bash
 - use command: "$ which bash" for knowing where bash directory at, if you dont know where bash directory at.
 
+Why xwayland and sudo not found on alpine?
+Because xwayland and sudo at community repository, you can edit manual in apk config for adding community repo or you can use command below:
+- # setup xorg-base
+- # apk add sudo
+
 NOTE!:
 This script still experimental, if you want to give suggestions just let me know about that ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
