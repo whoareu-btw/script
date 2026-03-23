@@ -1,6 +1,6 @@
 # Bash script
 I expected you already have git package, use command below:
-$ git clone https://github.com/whoareu-btw/script
+- $ git clone https://github.com/whoareu-btw/script
 
 Script installer for debian, fedora and alpine. This script will update and upgrading system first, after that will install packages below:
 Window manager and stuff related:
@@ -20,11 +20,11 @@ Dev tools:
 
 How to use this script?
 For example I use fedora version:
-$ bash fedora-script-install.sh
+- $ bash fedora-script-install.sh
 
 How to activate nix daemon on fedora?
-$ sudo systemctl enable --now nix-daemon
-$ systemctl reboot
+- $ sudo systemctl enable --now nix-daemon
+- $ systemctl reboot
 
 NOTE!:
 This script still experimental, if you want to give suggestions just let me know about that ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
