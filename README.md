@@ -11,15 +11,13 @@ Window manager and stuff related:
 - rofi
 - network-manager-applet
 - pavucontrol
-- nwg-look (for fedora by using this command: $ nix profile add nixpkgs#nwg-look)
 - xwayland
-- bash (for alpine)
 
 Dev tools:
 - neovim
 - distrobox
 - podman
-- nix and nix-daemon (on fedora)
+- nix and nix-daemon (fedora only)
 
 How to use this script?
 For example I use fedora version:
@@ -28,6 +26,9 @@ For example I use fedora version:
 How to activate nix daemon on fedora?
 - $ sudo systemctl enable --now nix-daemon
 - $ systemctl reboot
+
+How to install something with nix? This command will using flakes
+- $ nix profile add nixpkgs#nerd-fonts.iosevka
 
 How to change shell to bash on alpine?
 - $ chsh -s /usr/bin/bash
