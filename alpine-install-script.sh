@@ -26,7 +26,7 @@ run_task "Updating repository and upgrading system" sudo apk -U upgrade
 PACKAGE_SWAY="sway swaylock swaybg waybar rofi network-manager-applet pavucontrol nwg-look"
 run_task "Installing sway and related stuff" sudo apk add $PACKAGE_SWAY
 
-PACKAGE_DEV="git neovim podman distrobox"
+PACKAGE_DEV="neovim podman distrobox"
 run_task "Installing dev tools" sudo apk add $PACKAGE_DEV
 
 log_message "Proccess done, log saved in: $LOG_FILE"
