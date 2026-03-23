@@ -21,12 +21,12 @@ run_task() {
 	fi
 }
 
-run_task "Updating repository and upgrading system" sudo apt update && sudo apt upgrade
+run_task "Updating repository and upgrading system" sudo apt update && sudo apt upgrade -y
 
 PACKAGE_SWAY="sway swaylock swaybg waybar rofi network-manager-applet pavucontrol nwg-look xwayland"
-run_task "Installing sway and related stuff" sudo apt install $PACKAGE_SWAY
+run_task "Installing sway and related stuff" sudo apt install $PACKAGE_SWAY -y
 
 PACKAGE_DEV="neovim podman distrobox"
-run_task "Installing dev tools" sudo apt install $PACKAGE_DEV
+run_task "Installing dev tools" sudo apt install $PACKAGE_DEV -y
 
 log_message "Proccess done, log saved in: $LOG_FILE"
