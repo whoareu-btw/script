@@ -11,7 +11,8 @@ Window manager and stuff related:
 - rofi
 - network-manager-applet
 - pavucontrol
-- nwg-look (on fedora use: $ nix profile add nixpkgs#nwg-look) 
+- nwg-look (on fedora use: $ nix profile add nixpkgs#nwg-look)
+- xwayland 
 
 Dev tools:
 - neovim
