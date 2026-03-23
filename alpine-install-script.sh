@@ -23,7 +23,7 @@ run_task() {
 
 run_task "Updating repository and upgrading system" sudo apk -U upgrade
 
-PACKAGE_SWAY="sway swaylock swaybg waybar rofi"
+PACKAGE_SWAY="sway swaylock swaybg waybar rofi network-manager-applet nwg-look"
 run_task "Installing sway and related stuff" sudo apk add $PACKAGE_SWAY
 
 PACKAGE_DEV="git neovim podman distrobox"
