@@ -3,6 +3,7 @@ I expected you already have git package, use command below:
 - $ git clone https://github.com/whoareu-btw/script
 
 Script installer for debian, fedora and alpine. This script will update and upgrading system first, after that will install packages below:
+
 Window manager and stuff related:
 - sway
 - swaylock
