@@ -23,7 +23,7 @@ run_task() {
 
 run_task "Updating repository and upgrading system" sudo apt update && sudo apt upgrade
 
-PACKAGE_SWAY="sway swaylock swaybg waybar rofi network-manager-applet pavucontrol nwg-look"
+PACKAGE_SWAY="sway swaylock swaybg waybar rofi network-manager-applet pavucontrol nwg-look xwayland"
 run_task "Installing sway and related stuff" sudo apt install $PACKAGE_SWAY
 
 PACKAGE_DEV="neovim podman distrobox"
