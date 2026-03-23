@@ -23,7 +23,7 @@ run_task() {
 
 run_task "Updating system" sudo dnf update -y
 
-PACKAGE_SWAY="sway swaylock swaybg waybar rofi network-manager-applet pavucontrol"
+PACKAGE_SWAY="sway swaylock swaybg waybar rofi network-manager-applet pavucontrol xorg-x11-server-Xwayland"
 run_task "Installing sway and related stuff" sudo dnf install -y $PACKAGE_SWAY
 
 PACKAGE_DEV="neovim podman distrobox nix nix-daemon"
