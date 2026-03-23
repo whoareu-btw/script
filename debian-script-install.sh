@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-LOG_FILE="alpine-install-script_$(date +%Y%m%d_%H%M).log"
+LOG_FILE="debian-install-script_$(date +%Y%m%d_%H%M).log"
 
 log_message() {
 	echo -e "[$(date +'%Y-%m-%d %H:%M:%S') $1]" | tee -a "$LOG_FILE"
