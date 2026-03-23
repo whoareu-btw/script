@@ -21,12 +21,12 @@ run_task() {
 	fi
 }
 
-run_task "Updating system ..." sudo dnf update -y
+run_task "Updating system" sudo dnf update -y
 
-PACKAGE_SWAY="sway swaylock swaybg waybar rofi"
-run_task "Installing sway and related stuff ..." sudo dnf install --setopt=install_weak_deps=False -y $PACKAGE_SWAY
+PACKAGE_SWAY="sway swaylock swaybg waybar rofi network-manager-applet pavucontrol"
+run_task "Installing sway and related stuff" sudo dnf install -y $PACKAGE_SWAY
 
-PACKAGE_DEV="git neovim podman distrobox nix nix-daemon"
-run_task "Installing dev tools ..." sudo dnf install ---setopt=install_weak_deps=False -y $PACKAGE_DEV
+PACKAGE_DEV="neovim podman distrobox nix nix-daemon"
+run_task "Installing dev tools" sudo dnf install -y $PACKAGE_DEV
 
 log_message "Proccess done, log saved in: $LOG_FILE"
