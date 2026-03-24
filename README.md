@@ -1,5 +1,18 @@
 # Bash script
-I expected you already have git package, use command below:
+Requirements before use this script:
+- internet connection
+- git
+- sudo privileges
+- bash (for alpine)
+
+Tested environments:
+- Alpine Linux 3.23 (container)
+- Debian Trixie/13 (container)
+- Fedora 43 (container)
+
+**WARNING!** : Before use this script, highly recommend to use VM or experiment device ( • ̀ω•́ )✧
+
+Use this command for cloning:
 - $ git clone https://github.com/whoareu-btw/script
 
 Script installer for debian, fedora and alpine. This script will update and upgrading system first, after that will install packages below:
@@ -11,6 +24,7 @@ Window manager and stuff related:
 - rofi
 - network-manager-applet
 - pavucontrol
+- nwg-look (debian only)
 - xwayland
 
 Dev tools:
@@ -23,16 +37,18 @@ How to use this script?
 For example I use fedora version:
 - $ bash fedora-script-install.sh
 
-How to activate nix daemon on fedora?
+How to activate nix daemon on fedora if not enable yet?
 - $ sudo systemctl enable --now nix-daemon
 - $ systemctl reboot
 
-How to install something with nix? This command will using flakes
+How to install something with nix? This command will use flakes
 - $ nix profile add nixpkgs#nerd-fonts.iosevka
+- $ nix profile add nixpkgs#nwg-look
 
-How to change shell to bash on alpine?
-- $ chsh -s /usr/bin/bash
-- use command: "$ which bash" for knowing where bash directory at, if you dont know where bash directory at.
+How to use distrobox?
+- $ distrobox create -n arch -i archlinux (if you didn't have podman images, it will pull image first before create container)
+- $ distrobox enter arch
+- $ sudo pacman -S nwg-look
 
 Why xwayland and sudo not found on alpine?
 Because xwayland and sudo at community repository, you can add community repo manually or you can use command below:
@@ -40,5 +56,4 @@ Because xwayland and sudo at community repository, you can add community repo ma
 - \# setup-xorg-base
 - \# apk add sudo
 
-NOTE!:
-This script still experimental, if you want to give suggestions just let me know about that ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
+**NOTE!** : This script still **experimental**, if you want to give suggestions just let me know about that ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
