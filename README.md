@@ -18,20 +18,20 @@
 Script installer for debian, fedora and alpine. This script will update and upgrading system first, after that will install packages below:
 
 ### Window manager stack:
-- sway
-- swaylock
-- waybar
-- rofi
-- network-manager-applet
-- pavucontrol
-- nwg-look (debian only)
-- xwayland
+- sway -> Window manager
+- swaylock -> Lock screen
+- waybar -> Status bar
+- rofi -> Application launcher
+- network-manager-applet -> Tray network controller
+- pavucontrol -> Pipewire-pulse or Pulseaudio GUI volume control
+- nwg-look (debian only) -> GUI tool to configure GTK themes, icons, fonts and cursor Wayland window manager
+- xwayland -> Compability layer for running x11 apps on Wayland
 
-Dev tools:
-- neovim
-- distrobox
-- podman
-- nix and nix-daemon (fedora only)
+### Dev tools:
+- neovim -> Text editor
+- distrobox -> Tool for creating distro containers by using Podman or Docker 
+- podman -> Rootless container engine
+- nix and nix-daemon (fedora only) -> Declarative package and environment manager
 
 ### Note for alpine
 Use this command before using this script:
