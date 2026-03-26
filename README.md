@@ -14,12 +14,12 @@ Now this script rewrite to Python /ᐠ˵> ˕ <˵マ. But, Bash script still ther
 - Debian Trixie/13 (container)
 - Fedora 43 (container)
 
-**WARNING!** : Before use this script, highly recommend to use VM or experiment device ( • ̀ω•́ )✧
+**WARNING!** : Before use this script, highly recommend to use VM or experiment device for better experience ( • ̀ω•́ )✧
 
 ### Use this command for cloning:
 - $ git clone https://github.com/whoareu-btw/script
 
-Script installer for Alpine, Debian and Fedora. This script will update repository and upgrade system first, after that will install packages below:
+Script installer for Alpine, Arch, Debian and Fedora. This script will update repository and upgrade system first, after that will install packages below:
 
 ### Window manager stack:
 - sway → Window manager
@@ -44,8 +44,8 @@ Use this command before using this script:
 - \# apk add sudo
 
 ### How to use this script?
-For example I use fedora version:
-- $ bash fedora-script-install.sh
+Simply by using this command:
+- $ bash main.sh
 
 ### How to activate nix daemon on fedora if not enable yet?
 - $ sudo systemctl enable --now nix-daemon
