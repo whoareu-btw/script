@@ -11,8 +11,9 @@ Now this script rewrite to Python /ᐠ˵> ˕ <˵マ. But, Bash script still ther
 
 ### Tested environments:
 - Alpine Linux 3.23 (container)
-- Debian Trixie/13 (container)
-- Fedora 43 (container)
+- Arch Linux (container)
+- Debian Linux Trixie/13 (container)
+- Fedora Linux 43 (container)
 
 **WARNING!** : Before use this script, highly recommend to use VM or experiment device for better experience ( • ̀ω•́ )✧
 
