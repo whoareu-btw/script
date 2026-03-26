@@ -7,7 +7,7 @@ Now this script rewrite to Python /ᐠ˵> ˕ <˵マ. But, Bash script still ther
 - internet connection
 - git
 - sudo privileges
-- bash (for alpine)
+- bash
 
 ### Tested environments:
 - Alpine Linux 3.23 (container)
@@ -29,14 +29,14 @@ Script installer for Alpine, Arch, Debian and Fedora. This script will update re
 - rofi → Application launcher
 - network-manager-applet → Tray network controller
 - pavucontrol → Pipewire-pulse or Pulseaudio GUI volume control
-- nwg-look (debian only) → GUI tool to configure GTK themes, icons, fonts and cursor Wayland window manager
+- nwg-look (Arch and Debian only) → GUI tool to configure GTK themes, icons, fonts and cursor Wayland window manager
 - xwayland → Compability layer for running x11 apps on Wayland
 
 ### Dev tools:
 - neovim → Text editor
 - distrobox → Tool for creating containers by using Podman or Docker 
 - podman → Rootless container engine
-- nix and nix-daemon (fedora only) → Declarative package and environment manager
+- nix and nix-daemon (Fedora only) → Declarative package and environment manager
 
 ### Note for alpine
 Use this command before using this script:
