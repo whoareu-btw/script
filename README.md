@@ -1,4 +1,8 @@
 # Bash script
+
+### UPDATE!!!
+Now this script rewrite to Python /ᐠ˵> ˕ <˵マ. But, Bash script still there as wrapper for Python files and for installing Python package! ENJOY THIS UPDATE, EVERYNYAN ⸜(｡˃ ᵕ ˂ )⸝♡
+
 ### Requirements before using this script:
 - internet connection
 - git
