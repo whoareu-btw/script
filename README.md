@@ -46,6 +46,7 @@ Use this command before using this script:
 
 ### How to use this script?
 Simply by using this command:
+- $ cd script
 - $ bash main.sh
 
 ### How to activate nix daemon on fedora if not enable yet?
